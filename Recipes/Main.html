@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>  
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes </title>
+<link rel="stylesheet" href="css/sitestyle.css">
+
+</head>
+<body>
+
+
+<nav> 
+     
+<div class="left">
+<h1>My recipe Blog</h1>
+</div>
+<div class="down">
+<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+<button class="btn" onclick="filterSelection('dessert')">Desserts</button>
+<button class="btn" onclick="filterSelection('soup')">Soups</button>
+<button class="btn" onclick="filterSelection('main')">Main course</button>
+<a href="#GoToContact" class="faker">Contact information</a>
+
+<input id="searchbar" onkeyup="searcher()" type="text" name="search" placeholder="Search recipes...">
+</div>
+
+</nav> 
+
+<article>
+<ul id='list'>
+
+<li class="recipes dessert"><img class="salam" src="https://travelinbaku.com/upload/Local_sweets/Azerbaijan-local-sweet-baklava-pakhlava-Baku-Azerbaijani-blaklava%20(1).jpg" width=100%>
+<h4><b>Baklava</b></h4><a class="faker" href="Baklava.html">See recipe</a></li>
+
+<li class="recipes soup"><img class="salam" src="https://kifayet.files.wordpress.com/2015/09/mercimek-corbasi-3.jpg" width=100%>
+<h4><b>Lentils soup</b></h4><a class="faker" href="Lentis.html">See recipe</a></li>
+
+<li class="recipes main"><img class="salam" src="https://kayzen.az/uploads/images/00/85/62/2013/11/08/4338d2.jpg" width="100%">
+<h4><b>Dolma</b></h4><a class="faker" href="Dolma.html">See recipe</a></li>
+
+<li class="recipes dessert"><img class="salam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Shekerbura_by_Liya.jpg/1200px-Shekerbura_by_Liya.jpg" width="100%">
+<h4><b>Sekerbura</b></h4><a class="faker" href="Sekerbura.html">See recipe</a></li>
+
+<li class="recipes main"><img class="salam" src="https://i.ytimg.com/vi/FklIpKbtPa4/sddefault.jpg" width="100%">
+<h4><b>Bozbash</b></h4><a class="faker" href="Bozbash.html">See recipe</a></li>
+
+<li class="recipes soup"><img class="salam" src="https://img.povar.ru/mobile/50/48/14/a1/azerbaidjanskii_sup_dovga-305721.jpg" width="100%">
+<h4><b>Dovga</b></h4><a class="faker" href="Dovga.html">See recipe</a></li>
+   
+<li class="recipes main"><img class="salam" src="https://i.ytimg.com/vi/U182w2ZgMgo/sddefault.jpg" width="100%">
+<h4><b>Plov</b></h4><a class="faker" href="Plov.html">See recipe</a></li>
+   
+<li class="recipes soup"><img class="salam" src="https://qadin.net/uploads/posts/2019-03/1551934705_dadl.jpg" width="100%">
+<h4><b>Noodles</b></h4><a class="faker" href="Noodles.html">See recipe</a></li>
+        
+<li class="recipes dessert"><img class="salam" src="https://i.ytimg.com/vi/IYl7BnemkUM/maxresdefault.jpg" width="100%">
+<h4><b>Grated Pie</b></h4><a class="faker" href="Grater.html">See recipe</a></li>
+
+<li class="recipes main"><img class="salam" src="https://i.ytimg.com/vi/zEXqaruR2UU/sddefault.jpg" width="100%">
+<h4><b>Dumplings</b></h4><a class="faker" href="Dumplings.html">See recipe</a></li>
+
+<li class="recipes soup"><img class="salam" src="https://img.milli.az/2021/01/27/917110.jpg" width="100%">
+<h4><b>Dushbara </b></h4><a class="faker" href="Dushbara.html">See recipe</a></li>
+
+<li class="recipes dessert"><img class="salam" src="https://i.ytimg.com/vi/vFVJcrthq9g/mqdefault.jpg" width="100%">
+<h4><b>Kata with nuts</b></h4><a class="faker" href="Kata.html">See recipe</a></li>
+
+</ul>
+</article>
+
+<footer id="GoToContact">
+<h3>Contact information:</h3>
+<p>Email: <a href="mailto:wosayam@gmail.com">wosayam@gmail.com</a></p>
+<p>Phone number: 055-219-46-48</p>
+</footer>
+    
+
+<script src="myScript.js"></script>
+</body>
+</html>

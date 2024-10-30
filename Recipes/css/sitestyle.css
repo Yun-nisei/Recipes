@@ -1,0 +1,173 @@
+* {box-sizing: border-box;}
+
+
+nav {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 1504px; 
+    position: fixed;
+    background-color: rgb(220, 59, 0);
+    color: white;
+    z-index: 1;
+    border: solid;
+    border-color: black;
+  
+}
+
+article {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+img {
+    border: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    scroll-padding-top: 80px; 
+    padding-top: 80px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpapers.com/images/featured/food-4k-1pf6px6ryqfjtnyr.jpg);
+}
+
+
+
+.left{
+    float: left; 
+    padding-right: 500px;
+    min-width: 49%;
+}
+
+.left_bit {
+  margin-left: 10px;
+}
+
+.down {
+    padding-top: 13px;
+    float: right; 
+}
+
+.down2 {
+    padding-top: 30px;
+    padding-left: 90%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border: 20px solid ;
+    border-color: black;
+}
+
+
+#searchbar {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 21%;
+    box-sizing: border-box;
+}
+ 
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+ 
+li {
+    font-size: 23px;
+}
+
+p {
+ font-size: 23px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.salam{
+    min-height: 170px;
+}
+
+.recipes {
+    font-size: 1.2em;
+    padding: 15px;
+    border: solid;
+    border-radius: 5px;
+    margin: 10px;
+    display: none;
+    background-color: white;
+    width: 15%;
+    float: left;
+    min-height: 300px;
+}
+
+.show {
+    display: block;
+}
+
+.blocks {
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    border-radius: 3%;
+    background-color: rgb(240, 184, 81);
+    opacity: .8;
+} 
+
+
+h2 {
+    text-align: center;
+}
+
+
+.checklist {
+    background-color: #7393B3;
+    border: 2px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+  
+.btn {
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.faker {
+    border: none;
+    outline: none;
+    padding: 1%;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.faker:hover {
+    background-color: #ddd;
+}
+
+
+
